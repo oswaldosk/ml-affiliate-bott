@@ -3,11 +3,11 @@ import telegram
 import time
 import os
 
-TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
-AFILIADO = os.getenv("ML_AFFILIATE_CODE")
-PALABRA_CLAVE = os.getenv("KEYWORD")
-INTERVALO = int(os.getenv("INTERVAL"))  # en segundos
+TOKEN = os.getenv("7563411257:AAEYVPAULx-brmfJ7BbP3M7x__-NIhE12uo")
+CHAT_ID = os.getenv("-1002793672326")
+AFILIADO = os.getenv("?matt_tool=75246691")
+PALABRA_CLAVE = os.getenv("https://mercadolibre.com.mx/ofertas")
+INTERVALO = int(os.getenv("600"))  # en segundos
 
 bot = telegram.Bot(token=TOKEN)
 
