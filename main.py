@@ -5,9 +5,9 @@ import os
 
 TOKEN = os.getenv("7563411257:AAEYVPAULx-brmfJ7BbP3M7x__-NIhE12uo")
 CHAT_ID = os.getenv("-1002793672326")
-AFILIADO = os.getenv("?matt_tool=75246691")
+AFILIADO = os.getenv("&matt_tool=75246691")
 PALABRA_CLAVE = os.getenv("ofertas")
-INTERVALO = int(os.getenv("600"))  # en segundos
+INTERVALO = int(os.getenv("100"))  # en segundos
 
 bot = telegram.Bot(token=TOKEN)
 
